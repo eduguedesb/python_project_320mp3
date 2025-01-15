@@ -25,7 +25,7 @@ def mover_arquivos(pasta_principal):
                 # Verifica o bitrate
                 bitrate = verificar_bitrate(caminho_arquivo)
 
-                # Move arquivos que não são 320 kbps
+                # Move os arquivos que não são 320 kbps
                 if bitrate != 320000:
                     print(f"Movendo {file} - Bitrate: {bitrate // 1000} kbps")
                     shutil.move(caminho_arquivo, os.path.join(pasta_temp, file))
@@ -35,5 +35,5 @@ def mover_arquivos(pasta_principal):
 
 if __name__ == "__main__":
     # Insira o caminho da pasta principal aqui
-    pasta_principal = r"D:\BACKUP\PASTA (MP3)"  # Atualize com o caminho correto
+    pasta_principal = r"D:\MP3\NAC\MUKIFO"
     mover_arquivos(pasta_principal)
