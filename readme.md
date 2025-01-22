@@ -9,4 +9,5 @@ mutagen: Biblioteca necessária para extrair informações dos arquivos MP3, com
 
 # Como Usar:
 Atualize o caminho da pasta principal no script com o local onde estão seus arquivos MP3.
+<br>
 Execute o script com o seguinte comando: py 320mp3.py ou python 320mp3.py.
