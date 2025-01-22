@@ -7,6 +7,6 @@ Verifica o bitrate de cada arquivo MP3 utilizando a biblioteca mutagen, cria uma
 # Dependências:
 mutagen: Biblioteca necessária para extrair informações dos arquivos MP3, como o bitrate.
 
-# Como usar:
+# Como Usar:
 Atualize o caminho da pasta principal no script com o local onde estão seus arquivos MP3.
 Execute o script com o seguinte comando: py 320mp3.py ou python 320mp3.py.
