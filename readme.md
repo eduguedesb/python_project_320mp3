@@ -9,4 +9,4 @@ mutagen: Biblioteca necessária para extrair informações dos arquivos MP3, com
 
 # Como usar:
 Atualize o caminho da pasta principal no script com o local onde estão seus arquivos MP3.
-Execute o script e ele moverá os arquivos MP3 com bitrates diferentes de 320 kbps para a subpasta TEMP.
+Execute o script com o seguinte comando: py 320mp3.py ou python 320mp3.py.
